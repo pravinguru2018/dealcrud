@@ -5,6 +5,27 @@
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181210180911_added_entity_RefSyndicationTeam.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181210180912_added_entity_RefDealStatus.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181210180913_added_entity_RefOriginationTeam.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181210180914_added_entity_RefLineOfBusiness.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181210180915_added_entity_RefRecourseToClient.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181210180916_added_entity_RefRatingCrr.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181210180917_added_entity_RefRatingMoodys.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181210180918_added_entity_RefRatingSAndP.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181210180919_added_entity_RefRatingFitch.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181210180920_added_entity_RefCountry.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181210180921_added_entity_RefPraSector.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181210180922_added_entity_Deal.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181210180923_added_entity_RefFacilityType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181210180924_added_entity_RefBookingEntity.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181210180925_added_entity_RefSeniority.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181210180926_added_entity_RefCovenant.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181210180927_added_entity_Tranche.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181210180928_added_entity_TrancheMargin.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20181210180922_added_entity_constraints_Deal.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181210180927_added_entity_constraints_Tranche.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181210180928_added_entity_constraints_TrancheMargin.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
 </databaseChangeLog>
